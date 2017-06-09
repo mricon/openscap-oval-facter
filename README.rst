@@ -5,6 +5,15 @@ This is a small utility to translate openscap OVAL policy analysis
 results into a YAML file of puppet facts that can be queried via the
 puppet dashboard or via an orchestration tool (like MCO).
 
+Requirements
+------------
+Requires the following packages to be installed:
+
+- openscap-scanner
+- python-requests
+- python-lxml
+- PyYAML
+
 Example usage
 -------------
 When run with --help::
@@ -42,11 +51,11 @@ See the "example-tweaks.yaml" file for some detail on what can be
 tweaked in the upstream oval XML policy file to make it work on your
 system, or to upgrade/downgrade severity on some errata.
 
-You will probably be running this from cron, so we add a ''--sleep''
+You will probably be running this from cron, so we add a `--sleep`
 parameter to help make sure not all systems are hitting the definitions
-file at once, plus suppress output with ''--quiet''.
+file at once, plus suppress output with `--quiet`.
 
-The ''--needsreboot'' parameter requires yum libraries to work and will
+The `--needsreboot` parameter requires yum libraries to work and will
 help you pinpoint when a system needs rebooting in order to enable the
 updated kernel or some core libraries.
 
