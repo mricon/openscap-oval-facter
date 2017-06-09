@@ -1,0 +1,252 @@
+---
+# Sample output from a CentOS 7 system that really needs to be patched.
+openscap:
+  oval:
+    cve:
+      CVE-2013-4312: https://access.redhat.com/security/cve/CVE-2013-4312
+      CVE-2015-5194: https://access.redhat.com/security/cve/CVE-2015-5194
+      CVE-2015-5195: https://access.redhat.com/security/cve/CVE-2015-5195
+      CVE-2015-5196: https://access.redhat.com/security/cve/CVE-2015-5196
+      CVE-2015-5219: https://access.redhat.com/security/cve/CVE-2015-5219
+      CVE-2015-7691: https://access.redhat.com/security/cve/CVE-2015-7691
+      CVE-2015-7692: https://access.redhat.com/security/cve/CVE-2015-7692
+      CVE-2015-7701: https://access.redhat.com/security/cve/CVE-2015-7701
+      CVE-2015-7702: https://access.redhat.com/security/cve/CVE-2015-7702
+      CVE-2015-7703: https://access.redhat.com/security/cve/CVE-2015-7703
+      CVE-2015-7852: https://access.redhat.com/security/cve/CVE-2015-7852
+      CVE-2015-7974: https://access.redhat.com/security/cve/CVE-2015-7974
+      CVE-2015-7977: https://access.redhat.com/security/cve/CVE-2015-7977
+      CVE-2015-7978: https://access.redhat.com/security/cve/CVE-2015-7978
+      CVE-2015-7979: https://access.redhat.com/security/cve/CVE-2015-7979
+      CVE-2015-8138: https://access.redhat.com/security/cve/CVE-2015-8138
+      CVE-2015-8158: https://access.redhat.com/security/cve/CVE-2015-8158
+      CVE-2015-8325: https://access.redhat.com/security/cve/CVE-2015-8325
+      CVE-2015-8374: https://access.redhat.com/security/cve/CVE-2015-8374
+      CVE-2015-8543: https://access.redhat.com/security/cve/CVE-2015-8543
+      CVE-2015-8660: https://access.redhat.com/security/cve/CVE-2015-8660
+      CVE-2015-8746: https://access.redhat.com/security/cve/CVE-2015-8746
+      CVE-2015-8803: https://access.redhat.com/security/cve/CVE-2015-8803
+      CVE-2015-8804: https://access.redhat.com/security/cve/CVE-2015-8804
+      CVE-2015-8805: https://access.redhat.com/security/cve/CVE-2015-8805
+      CVE-2015-8812: https://access.redhat.com/security/cve/CVE-2015-8812
+      CVE-2015-8844: https://access.redhat.com/security/cve/CVE-2015-8844
+      CVE-2015-8845: https://access.redhat.com/security/cve/CVE-2015-8845
+      CVE-2015-8870: https://access.redhat.com/security/cve/CVE-2015-8870
+      CVE-2015-8956: https://access.redhat.com/security/cve/CVE-2015-8956
+      CVE-2016-0640: https://access.redhat.com/security/cve/CVE-2016-0640
+      CVE-2016-0641: https://access.redhat.com/security/cve/CVE-2016-0641
+      CVE-2016-0643: https://access.redhat.com/security/cve/CVE-2016-0643
+      CVE-2016-0644: https://access.redhat.com/security/cve/CVE-2016-0644
+      CVE-2016-0646: https://access.redhat.com/security/cve/CVE-2016-0646
+      CVE-2016-0647: https://access.redhat.com/security/cve/CVE-2016-0647
+      CVE-2016-0648: https://access.redhat.com/security/cve/CVE-2016-0648
+      CVE-2016-0649: https://access.redhat.com/security/cve/CVE-2016-0649
+      CVE-2016-0650: https://access.redhat.com/security/cve/CVE-2016-0650
+      CVE-2016-0666: https://access.redhat.com/security/cve/CVE-2016-0666
+      CVE-2016-0718: https://access.redhat.com/security/cve/CVE-2016-0718
+      CVE-2016-0764: https://access.redhat.com/security/cve/CVE-2016-0764
+      CVE-2016-10208: https://access.redhat.com/security/cve/CVE-2016-10208
+      CVE-2016-1248: https://access.redhat.com/security/cve/CVE-2016-1248
+      CVE-2016-1547: https://access.redhat.com/security/cve/CVE-2016-1547
+      CVE-2016-1548: https://access.redhat.com/security/cve/CVE-2016-1548
+      CVE-2016-1550: https://access.redhat.com/security/cve/CVE-2016-1550
+      CVE-2016-2053: https://access.redhat.com/security/cve/CVE-2016-2053
+      CVE-2016-2069: https://access.redhat.com/security/cve/CVE-2016-2069
+      CVE-2016-2117: https://access.redhat.com/security/cve/CVE-2016-2117
+      CVE-2016-2125: https://access.redhat.com/security/cve/CVE-2016-2125
+      CVE-2016-2126: https://access.redhat.com/security/cve/CVE-2016-2126
+      CVE-2016-2143: https://access.redhat.com/security/cve/CVE-2016-2143
+      CVE-2016-2384: https://access.redhat.com/security/cve/CVE-2016-2384
+      CVE-2016-2518: https://access.redhat.com/security/cve/CVE-2016-2518
+      CVE-2016-2774: https://access.redhat.com/security/cve/CVE-2016-2774
+      CVE-2016-2847: https://access.redhat.com/security/cve/CVE-2016-2847
+      CVE-2016-3044: https://access.redhat.com/security/cve/CVE-2016-3044
+      CVE-2016-3070: https://access.redhat.com/security/cve/CVE-2016-3070
+      CVE-2016-3075: https://access.redhat.com/security/cve/CVE-2016-3075
+      CVE-2016-3119: https://access.redhat.com/security/cve/CVE-2016-3119
+      CVE-2016-3120: https://access.redhat.com/security/cve/CVE-2016-3120
+      CVE-2016-3134: https://access.redhat.com/security/cve/CVE-2016-3134
+      CVE-2016-3156: https://access.redhat.com/security/cve/CVE-2016-3156
+      CVE-2016-3452: https://access.redhat.com/security/cve/CVE-2016-3452
+      CVE-2016-3477: https://access.redhat.com/security/cve/CVE-2016-3477
+      CVE-2016-3492: https://access.redhat.com/security/cve/CVE-2016-3492
+      CVE-2016-3521: https://access.redhat.com/security/cve/CVE-2016-3521
+      CVE-2016-3615: https://access.redhat.com/security/cve/CVE-2016-3615
+      CVE-2016-3699: https://access.redhat.com/security/cve/CVE-2016-3699
+      CVE-2016-3841: https://access.redhat.com/security/cve/CVE-2016-3841
+      CVE-2016-4470: https://access.redhat.com/security/cve/CVE-2016-4470
+      CVE-2016-4569: https://access.redhat.com/security/cve/CVE-2016-4569
+      CVE-2016-4578: https://access.redhat.com/security/cve/CVE-2016-4578
+      CVE-2016-4581: https://access.redhat.com/security/cve/CVE-2016-4581
+      CVE-2016-4794: https://access.redhat.com/security/cve/CVE-2016-4794
+      CVE-2016-4971: https://access.redhat.com/security/cve/CVE-2016-4971
+      CVE-2016-4997: https://access.redhat.com/security/cve/CVE-2016-4997
+      CVE-2016-4998: https://access.redhat.com/security/cve/CVE-2016-4998
+      CVE-2016-5011: https://access.redhat.com/security/cve/CVE-2016-5011
+      CVE-2016-5195: https://access.redhat.com/security/cve/CVE-2016-5195
+      CVE-2016-5384: https://access.redhat.com/security/cve/CVE-2016-5384
+      CVE-2016-5412: https://access.redhat.com/security/cve/CVE-2016-5412
+      CVE-2016-5419: https://access.redhat.com/security/cve/CVE-2016-5419
+      CVE-2016-5420: https://access.redhat.com/security/cve/CVE-2016-5420
+      CVE-2016-5423: https://access.redhat.com/security/cve/CVE-2016-5423
+      CVE-2016-5424: https://access.redhat.com/security/cve/CVE-2016-5424
+      CVE-2016-5440: https://access.redhat.com/security/cve/CVE-2016-5440
+      CVE-2016-5444: https://access.redhat.com/security/cve/CVE-2016-5444
+      CVE-2016-5612: https://access.redhat.com/security/cve/CVE-2016-5612
+      CVE-2016-5616: https://access.redhat.com/security/cve/CVE-2016-5616
+      CVE-2016-5624: https://access.redhat.com/security/cve/CVE-2016-5624
+      CVE-2016-5626: https://access.redhat.com/security/cve/CVE-2016-5626
+      CVE-2016-5629: https://access.redhat.com/security/cve/CVE-2016-5629
+      CVE-2016-5636: https://access.redhat.com/security/cve/CVE-2016-5636
+      CVE-2016-5652: https://access.redhat.com/security/cve/CVE-2016-5652
+      CVE-2016-5696: https://access.redhat.com/security/cve/CVE-2016-5696
+      CVE-2016-5828: https://access.redhat.com/security/cve/CVE-2016-5828
+      CVE-2016-5829: https://access.redhat.com/security/cve/CVE-2016-5829
+      CVE-2016-6136: https://access.redhat.com/security/cve/CVE-2016-6136
+      CVE-2016-6197: https://access.redhat.com/security/cve/CVE-2016-6197
+      CVE-2016-6198: https://access.redhat.com/security/cve/CVE-2016-6198
+      CVE-2016-6313: https://access.redhat.com/security/cve/CVE-2016-6313
+      CVE-2016-6327: https://access.redhat.com/security/cve/CVE-2016-6327
+      CVE-2016-6480: https://access.redhat.com/security/cve/CVE-2016-6480
+      CVE-2016-6489: https://access.redhat.com/security/cve/CVE-2016-6489
+      CVE-2016-6662: https://access.redhat.com/security/cve/CVE-2016-6662
+      CVE-2016-6663: https://access.redhat.com/security/cve/CVE-2016-6663
+      CVE-2016-6828: https://access.redhat.com/security/cve/CVE-2016-6828
+      CVE-2016-7030: https://access.redhat.com/security/cve/CVE-2016-7030
+      CVE-2016-7039: https://access.redhat.com/security/cve/CVE-2016-7039
+      CVE-2016-7117: https://access.redhat.com/security/cve/CVE-2016-7117
+      CVE-2016-7141: https://access.redhat.com/security/cve/CVE-2016-7141
+      CVE-2016-7426: https://access.redhat.com/security/cve/CVE-2016-7426
+      CVE-2016-7429: https://access.redhat.com/security/cve/CVE-2016-7429
+      CVE-2016-7433: https://access.redhat.com/security/cve/CVE-2016-7433
+      CVE-2016-7910: https://access.redhat.com/security/cve/CVE-2016-7910
+      CVE-2016-7914: https://access.redhat.com/security/cve/CVE-2016-7914
+      CVE-2016-7915: https://access.redhat.com/security/cve/CVE-2016-7915
+      CVE-2016-8283: https://access.redhat.com/security/cve/CVE-2016-8283
+      CVE-2016-8610: https://access.redhat.com/security/cve/CVE-2016-8610
+      CVE-2016-8630: https://access.redhat.com/security/cve/CVE-2016-8630
+      CVE-2016-8646: https://access.redhat.com/security/cve/CVE-2016-8646
+      CVE-2016-8650: https://access.redhat.com/security/cve/CVE-2016-8650
+      CVE-2016-8655: https://access.redhat.com/security/cve/CVE-2016-8655
+      CVE-2016-9083: https://access.redhat.com/security/cve/CVE-2016-9083
+      CVE-2016-9084: https://access.redhat.com/security/cve/CVE-2016-9084
+      CVE-2016-9310: https://access.redhat.com/security/cve/CVE-2016-9310
+      CVE-2016-9311: https://access.redhat.com/security/cve/CVE-2016-9311
+      CVE-2016-9533: https://access.redhat.com/security/cve/CVE-2016-9533
+      CVE-2016-9534: https://access.redhat.com/security/cve/CVE-2016-9534
+      CVE-2016-9535: https://access.redhat.com/security/cve/CVE-2016-9535
+      CVE-2016-9536: https://access.redhat.com/security/cve/CVE-2016-9536
+      CVE-2016-9537: https://access.redhat.com/security/cve/CVE-2016-9537
+      CVE-2016-9540: https://access.redhat.com/security/cve/CVE-2016-9540
+      CVE-2016-9555: https://access.redhat.com/security/cve/CVE-2016-9555
+      CVE-2016-9575: https://access.redhat.com/security/cve/CVE-2016-9575
+      CVE-2016-9793: https://access.redhat.com/security/cve/CVE-2016-9793
+      CVE-2016-9794: https://access.redhat.com/security/cve/CVE-2016-9794
+      CVE-2017-2590: https://access.redhat.com/security/cve/CVE-2017-2590
+      CVE-2017-2616: https://access.redhat.com/security/cve/CVE-2017-2616
+      CVE-2017-2618: https://access.redhat.com/security/cve/CVE-2017-2618
+      CVE-2017-2619: https://access.redhat.com/security/cve/CVE-2017-2619
+      CVE-2017-2636: https://access.redhat.com/security/cve/CVE-2017-2636
+      CVE-2017-3731: https://access.redhat.com/security/cve/CVE-2017-3731
+      CVE-2017-5986: https://access.redhat.com/security/cve/CVE-2017-5986
+      CVE-2017-6074: https://access.redhat.com/security/cve/CVE-2017-6074
+      CVE-2017-7308: https://access.redhat.com/security/cve/CVE-2017-7308
+      CVE-2017-7494: https://access.redhat.com/security/cve/CVE-2017-7494
+      CVE-2017-7502: https://access.redhat.com/security/cve/CVE-2017-7502
+    needs_reboot: true
+    reboot_pkgs:
+    - nss-3.28.4-1.0.el7_3.x86_64
+    rhsa:
+      RHSA-2016:0063-00: https://rhn.redhat.com/errata/RHSA-2016-0063.html
+      RHSA-2016:1141-00: https://access.redhat.com/errata/RHSA-2016:1141
+      RHSA-2016:1539-01: https://rhn.redhat.com/errata/RHSA-2016-1539.html
+      RHSA-2016:1602-01: https://rhn.redhat.com/errata/RHSA-2016-1602.html
+      RHSA-2016:1633-01: https://rhn.redhat.com/errata/RHSA-2016-1633.html
+      RHSA-2016:1847-01: https://rhn.redhat.com/errata/RHSA-2016-1847.html
+      RHSA-2016:2047-01: https://rhn.redhat.com/errata/RHSA-2016-2047.html
+      RHSA-2016:2098-02: https://rhn.redhat.com/errata/RHSA-2016-2098.html
+      RHSA-2016:2573-02: https://rhn.redhat.com/errata/RHSA-2016-2573.html
+      RHSA-2016:2574-02: https://rhn.redhat.com/errata/RHSA-2016-2574.html
+      RHSA-2016:2575-02: https://rhn.redhat.com/errata/RHSA-2016-2575.html
+      RHSA-2016:2581-02: https://rhn.redhat.com/errata/RHSA-2016-2581.html
+      RHSA-2016:2582-02: https://rhn.redhat.com/errata/RHSA-2016-2582.html
+      RHSA-2016:2583-02: https://rhn.redhat.com/errata/RHSA-2016-2583.html
+      RHSA-2016:2586-02: https://rhn.redhat.com/errata/RHSA-2016-2586.html
+      RHSA-2016:2587-02: https://rhn.redhat.com/errata/RHSA-2016-2587.html
+      RHSA-2016:2588-02: https://rhn.redhat.com/errata/RHSA-2016-2588.html
+      RHSA-2016:2590-02: https://rhn.redhat.com/errata/RHSA-2016-2590.html
+      RHSA-2016:2591-02: https://rhn.redhat.com/errata/RHSA-2016-2591.html
+      RHSA-2016:2595-02: https://rhn.redhat.com/errata/RHSA-2016-2595.html
+      RHSA-2016:2601-02: https://rhn.redhat.com/errata/RHSA-2016-2601.html
+      RHSA-2016:2605-02: https://rhn.redhat.com/errata/RHSA-2016-2605.html
+      RHSA-2016:2606-02: https://rhn.redhat.com/errata/RHSA-2016-2606.html
+      RHSA-2016:2674-02: https://rhn.redhat.com/errata/RHSA-2016-2674.html
+      RHSA-2016:2824-01: https://rhn.redhat.com/errata/RHSA-2016-2824.html
+      RHSA-2016:2972-01: https://rhn.redhat.com/errata/RHSA-2016-2972.html
+      RHSA-2017:0001-01: https://access.redhat.com/errata/RHSA-2017:0001
+      RHSA-2017:0086-01: https://access.redhat.com/errata/RHSA-2017:0086
+      RHSA-2017:0225-01: https://access.redhat.com/errata/RHSA-2017:0225
+      RHSA-2017:0252-01: https://access.redhat.com/errata/RHSA-2017:0252
+      RHSA-2017:0286-01: https://access.redhat.com/errata/RHSA-2017:0286
+      RHSA-2017:0294-01: https://access.redhat.com/errata/RHSA-2017:0294
+      RHSA-2017:0372-01: https://access.redhat.com/errata/RHSA-2017:0372
+      RHSA-2017:0386-01: https://access.redhat.com/errata/RHSA-2017:0386
+      RHSA-2017:0388-01: https://access.redhat.com/errata/RHSA-2017:0388
+      RHSA-2017:0907-01: https://access.redhat.com/errata/RHSA-2017:0907
+      RHSA-2017:0933-01: https://access.redhat.com/errata/RHSA-2017:0933
+      RHSA-2017:1265-01: https://access.redhat.com/errata/RHSA-2017:1265
+      RHSA-2017:1270-01: https://access.redhat.com/errata/RHSA-2017:1270
+      RHSA-2017:1308-01: https://access.redhat.com/errata/RHSA-2017:1308
+      RHSA-2017:1365-03: https://access.redhat.com/errata/RHSA-2017:1365
+    severity:
+      important:
+        count: 5
+        titles:
+        - 'RHSA-2017:1365: nss security and bug fix update (Important)'
+        - 'RHSA-2017:1308: kernel security, bug fix, and enhancement update (Important)'
+        - 'RHSA-2016:2595: mariadb security and bug fix update (Important)'
+        - 'RHSA-2016:1602: mariadb security update (Important)'
+        - 'RHSA-2016:0063: ntp security update (Important)'
+      low:
+        count: 12
+        titles:
+        - 'RHSA-2017:1270: samba security update (Important)'
+        - 'RHSA-2016:2605: util-linux security, bug fix, and enhancement update (Low)'
+        - 'RHSA-2016:2591: krb5 security, bug fix, and enhancement update (Low)'
+        - 'RHSA-2016:2586: python security, bug fix, and enhancement update (Low)'
+        - 'RHSA-2016:2581: NetworkManager security, bug fix, and enhancement update
+          (Low)'
+        - 'RHSA-2016:2574: kernel security, bug fix, and enhancement update (Important)'
+        - 'RHSA-2016:2573: glibc security, bug fix, and enhancement update (Low)'
+        - 'RHSA-2016:2098: kernel security update (Important)'
+        - 'RHSA-2016:2047: kernel security update (Important)'
+        - 'RHSA-2016:1847: kernel security, bug fix, and enhancement update (Important)'
+        - 'RHSA-2016:1633: kernel security and bug fix update (Important)'
+        - 'RHSA-2016:1539: kernel security and bug fix update (Important)'
+      moderate:
+        count: 24
+        titles:
+        - 'RHSA-2017:1265: samba security and bug fix update (Moderate)'
+        - 'RHSA-2017:0933: kernel security, bug fix, and enhancement update (Important)'
+        - 'RHSA-2017:0907: util-linux security and bug fix update (Moderate)'
+        - 'RHSA-2017:0388: ipa security and bug fix update (Moderate)'
+        - 'RHSA-2017:0386: kernel security, bug fix, and enhancement update (Important)'
+        - 'RHSA-2017:0372: kernel-aarch64 security and bug fix update (Important)'
+        - 'RHSA-2017:0294: kernel security update (Important)'
+        - 'RHSA-2017:0286: openssl security update (Moderate)'
+        - 'RHSA-2017:0252: ntp security update (Moderate)'
+        - 'RHSA-2017:0225: libtiff security update (Moderate)'
+        - 'RHSA-2017:0086: kernel security, bug fix, and enhancement update (Important)'
+        - 'RHSA-2017:0001: ipa security update (Moderate)'
+        - 'RHSA-2016:2972: vim security update (Moderate)'
+        - 'RHSA-2016:2824: expat security update (Moderate)'
+        - 'RHSA-2016:2674: libgcrypt security update (Moderate)'
+        - 'RHSA-2016:2606: postgresql security and bug fix update (Moderate)'
+        - 'RHSA-2016:2601: fontconfig security and bug fix update (Moderate)'
+        - 'RHSA-2016:2590: dhcp security, bug fix, and enhancement update (Moderate)'
+        - 'RHSA-2016:2588: openssh security, bug fix, and enhancement update (Moderate)'
+        - 'RHSA-2016:2587: wget security and bug fix update (Moderate)'
+        - 'RHSA-2016:2583: ntp security and bug fix update (Moderate)'
+        - 'RHSA-2016:2582: nettle security and bug fix update (Moderate)'
+        - 'RHSA-2016:2575: curl security, bug fix, and enhancement update (Moderate)'
+        - 'RHSA-2016:1141: ntp security update (Moderate)'

@@ -1,0 +1,19 @@
+---
+# You can tweak some oval definitions in order to track custom
+# packages, or even to make the RHEL7 oval file to work on a
+# CentOS system (as the example below does).
+definition_fixes:
+  oval:com.redhat.rhsa:ste:20170372003: 0:3.10.0-514.2.2.el7
+  oval:com.redhat.rhsa:ste:20140675001: 24c6a8a7f4a80eb5
+  oval:com.redhat.rhsa:ste:20140675002: ^7
+  oval:com.redhat.rhsa:obj:20140675002: centos-release
+  oval:com.redhat.rhsa:ste:20170388003: 0:4.4.0-14.el7.centos.6
+  oval:com.redhat.rhsa:ste:20170001003: 0:4.4.0-14.el7.centos.1
+  oval:com.redhat.rhsa:ste:20170252005: 0:4.2.6p5-25.el7.centos.2
+  oval:com.redhat.rhsa:ste:20170906003: 0:2.4.6-45.el7.centos.4
+
+# You can additionally manually upgrade or downgrade severity on
+# specific errata in order to better match your environment.
+severity_changes:
+  RHSA-2016:2574: low
+  RHSA-2017:0933: moderate
